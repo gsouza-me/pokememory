@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Jogo da Memória</title>
+    
+    <link rel="stylesheet" href="src/style.css"/>
+</head>
+<body>
+    
+    <section class="hero-section">
+        <h1>POKE MEMORY</h1>
+        <p class="timer" aria-label="Tempo: zero minutos e zero segundos">00:00</p>
+        <button class="start-button" type="button" aria-label="Play">
+            <img src="assets/pokebola.svg" alt="">
+            <span>Play</span>
+        </button>
+    </section>
+
+    <main class="game-layout">
+      <aside class="ranking" aria-labelledby="ranking-title">
+        <h2 id="ranking-title">
+          <svg class="ranking-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9"></circle>
+            <path d="M12 7v5l3 2"></path>
+          </svg>
+          Melhores tempos
+        </h2>
+        <p class="ranking-empty">Complete uma partida para entrar no ranking.</p>
+        <ol class="ranking-list" aria-live="polite"></ol>
+      </aside>
+
+      <section class="board" aria-label="Tabuleiro do jogo da memória">
+      
+      <div class="cards">
+          <img class="frente" src="assets/articuno.svg" alt="pikachu">
+          <img class="verso" src="assets/pokebola.svg" alt="verso">
+      </div>
+
+      <div class="cards">
+          <img class="frente" src="assets/pika.svg" alt="pikachu">
+          <img class="verso" src="assets/pokebola.svg" alt="verso">
+      </div>
+
+      <div class="cards">
+          <img class="frente" src="assets/nine.svg" alt="pikachu">
+          <img class="verso" src="assets/pokebola.svg" alt="verso">
+      </div>
+
+      <div class="cards">
+          <img class="frente" src="assets/mew.svg" alt="pikachu">
+          <img class="verso" src="assets/pokebola.svg" alt="verso">
+      </div>
+
+      <div class="cards">
+          <img class="frente" src="assets/buba.svg" alt="pikachu">
+          <img class="verso" src="assets/pokebola.svg" alt="verso">
+      </div>
+
+      <div class="cards">
+          <img class="frente" src="assets/charizard.svg" alt="pikachu">
+          <img class="verso" src="assets/pokebola.svg" alt="verso">
+      </div>
+
+      <div class="cards">
+          <img class="frente" src="assets/articuno.svg" alt="Articuno">
+          <img class="verso" src="assets/pokebola.svg" alt="verso">
+      </div>
+      <div class="cards">
+          <img class="frente" src="assets/pika.svg" alt="Pikachu">
+          <img class="verso" src="assets/pokebola.svg" alt="verso">
+      </div>
+      <div class="cards">
+          <img class="frente" src="assets/nine.svg" alt="Ninetales">
+          <img class="verso" src="assets/pokebola.svg" alt="verso">
+      </div>
+      <div class="cards">
+          <img class="frente" src="assets/mew.svg" alt="Mew">
+          <img class="verso" src="assets/pokebola.svg" alt="verso">
+      </div>
+      <div class="cards">
+          <img class="frente" src="assets/buba.svg" alt="Bulbasaur">
+          <img class="verso" src="assets/pokebola.svg" alt="verso">
+      </div>
+      <div class="cards">
+          <img class="frente" src="assets/charizard.svg" alt="Charizard">
+          <img class="verso" src="assets/pokebola.svg" alt="verso">
+      </div>
+
+      </section>
+    </main>
+
+    <footer class="page-footer">
+        <p>Desenvolvido por Guilherme Souza</p>
+    </footer>
+
+    <Script src="scripts.js"></Script>
+
+</body>
+</html>
