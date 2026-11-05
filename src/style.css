@@ -16,14 +16,14 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  background: radial-gradient(circle at top, #fff8e7 0, #c54f4f 65%, #e15a5a 100%)
+  background:#ebebeb;
 }
 
 .page-footer {
   width: 100%;
   margin-top: auto;
   padding-top: 1.5rem;
-  color: hsl(30, 17%, 93%);
+  color: #4b4b4b;
   text-align: center;
   font-size: 0.9rem;
 }
